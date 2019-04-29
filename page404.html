@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Bigfish - 404</title>
+	<meta charset="utf-8" >
+	<meta name="description" content="" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<link rel="shortcut icon" href="favicon.ico" >
+  <!--  styles  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-container">
+    <div class="wrapper blog-header-wrapper">
+      <header class="header d-align-between">
+        <div class="logo">
+          <a class="logo__link d-align-between" href="#">
+            <img src="build/img/logo-icon.svg" alt="Bigfish" class="logo__img logo__img--1">
+            <img src="build/img/logo.svg" alt="Bigfish" class="logo__img logo__img--2">
+          </a>
+        </div>
+        <div class="header__right d-align-between">
+          <div class="mobile-phone">
+            <a href="tel:79232486298">+7 (923) 248-62-98</a>
+          </div>
+          <div class="change-lang d-sm-none">
+            <a href="#" class="change-lang__item active">Ru</a>
+            <span>-</span>
+            <a href="#" class="change-lang__item">En</a>
+          </div>
+          <button class="menubtn" id="menu-btn">
+            <span class="menubtn__item menubtn__item--1"></span>
+            <span class="menubtn__item menubtn__item--2"></span>
+            <span class="menubtn__item menubtn__item--3"></span>
+          </button>
+        </div>
+        <div class="menu d-between" id="header-menu">
+          <div class="page-container menu__container d-between">
+            <div class="change-lang d-sm-block">
+              <a href="#" class="change-lang__item active">Ru</a>
+              <span>-</span>
+              <a href="#" class="change-lang__item">En</a>
+            </div>
+            <ul class="menu__list">
+              <li><a class="menu__item" href="index.html"><i class="icon-arrow-right"></i>Главная</a></li>
+              <li><a class="menu__item" href="work.html"><i class="icon-arrow-right"></i>Работы</a></li>
+              <li><a class="menu__item" href="about.html"><i class="icon-arrow-right"></i>О нас</a></li>
+              <li><a class="menu__item" href="blog.html"><i class="icon-arrow-right"></i>Блог</a></li>
+              <li><a class="menu__item" href="contact.html"><i class="icon-arrow-right"></i>Контакты</a></li>
+            </ul>
+            <div class="contacts d-flex">
+              <div class="contacts__content">
+                <p class="contacts__address">Новосибирск<br> проспект Димитрова, 7, офис 524Б</p>
+                <p>Email: <a class="contacts__email" href="mailto:bigfishvp@gmail.com">bigfishvp@gmail.com</a></p>
+                <p>Телефон: <a class="contacts__phone" href="tel:79232486298">+7 (923) 248-62-98</a></p>
+                <p>Телефон: <a class="contacts__phone" href="tel:73832863720">+7 (383) 286-37-20</a></p>
+                <div class="socials">
+                  <a class="socials__item" href="#"><i class="icon-vimeo"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-youtube"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-fb"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-vk"></i></a>
+                </div>
+              </div>
+              <p><button class="requist-link right-link" href="#"><i class="icon-arrow-right"></i> Оставить заявку</button></p>
+              <div class="contacts__conf">
+                <a href="privacy.html" target="_blank">Политика конфиденциальности</a>
+                <a href="https://machineheads.ru/" target="_blank">Сделано в Machineheads</a>
+              </div>
+            </div>
+          </div>
+          <button class="menu__closebtn" id="closebtn"><i class="icon-close"></i></button>
+        </div>
+      </header>
+    </div>
+    <div class="right-line line-404">
+      <span class="right-line__text">404</span>
+    </div>
+  </div>
+  
+  <div class="error-page d-center">
+    <div class="message404">
+      <span class="message404__four">4</span>
+      <div class="message404__logo">
+        <img src="build/img/logo-icon.svg" alt="404">
+      </div>
+      <span class="message404__four">4</span>
+    </div>
+    <p class="about-what__text2">Такой страницы не существует</p>
+    <p><a class="right-link" href="index.html"><i class="icon-arrow-left"></i> На главную</a></p>
+  </div>
+  
+  <div class="modal-fix" id="modal-requist">
+    <div class="modal-requist">
+      <button class="menu__closebtn" id="requist-closebtn"><i class="icon-close"></i></button>
+      <div class="page-container">
+        <h2 class="title2">Оставьте заявку, мы<br> перезвоним</h2>
+        <form action="#" class="requist-form" id="requist-form">
+          <div class="requist-form__item error">
+            <input class="requist-form__inp" type="text" placeholder="Имя*">
+            <p class="requist-form__msg">О нет! Мы не знаем, как к вам обращаться!</p>
+          </div>
+          <div class="requist-form__item">
+            <input class="requist-form__inp phone-mask" type="text" placeholder="Телефон*">
+            <p class="requist-form__msg">О нет! Откуда у вас такой номер?</p>
+          </div>
+          <p class="requist-form__item">
+            <input class="requist-form__inp" type="text" placeholder="Цель создания ролика">
+          </p>
+          <p class="requist-form__item">
+            <input class="requist-form__inp" type="text" placeholder="Ссылки на примеры понравишихся работ">
+          </p>
+          <p class="requist-form__privacy">Нажимая оставить заявку я принимаю <a href="#">условия пользовательского<br> соглашения о передаче персональных данных</a></p>
+          <button class="contacts-page__req right-link" type="submit"><i class="icon-arrow-right"></i> Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal-fix" id="modal-requist-thenk">
+    <div class="modal-requist">
+      <button class="menu__closebtn close-thenk"><i class="icon-close"></i></button>
+      <div class="page-container">
+        <h2 class="title2">Спасибо, мы получили<br> вашу заявку</h2>
+        <p class="messages">В ближайшее время мы вам перезвоним</p>
+        <button class="contacts-page__req right-link close-thenk"><i class="icon-arrow-right"></i> Закрыть</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="build/js/jquery.min.js"></script>
+  <script src="build/js/mask.js"></script>
+  <script src="build/js/slick.min.js"></script>
+  <script src="build/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

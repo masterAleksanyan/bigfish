@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Bigfish - Главная</title>
+	<meta charset="utf-8" >
+	<meta name="description" content="" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<link rel="shortcut icon" href="favicon.ico" >
+  <!--  styles  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-container">
+    <div class="wrapper">
+      <header class="header d-align-between">
+        <div class="logo">
+          <a class="logo__link d-align-between" href="#">
+            <img src="build/img/logo-icon.svg" alt="Bigfish" class="logo__img logo__img--1">
+            <img src="build/img/logo.svg" alt="Bigfish" class="logo__img logo__img--2">
+          </a>
+        </div>
+        <div class="header__right d-align-between">
+          <div class="mobile-phone">
+            <a href="tel:79232486298">+7 (923) 248-62-98</a>
+          </div>
+          <div class="change-lang d-sm-none">
+            <a href="#" class="change-lang__item active">Ru</a>
+            <span>-</span>
+            <a href="#" class="change-lang__item">En</a>
+          </div>
+          <button class="menubtn" id="menu-btn">
+            <span class="menubtn__item menubtn__item--1"></span>
+            <span class="menubtn__item menubtn__item--2"></span>
+            <span class="menubtn__item menubtn__item--3"></span>
+          </button>
+        </div>
+        <div class="menu" id="header-menu">
+          <div class="page-container menu__container d-between">
+            <div class="change-lang d-sm-block">
+              <a href="#" class="change-lang__item active">Ru</a>
+              <span>-</span>
+              <a href="#" class="change-lang__item">En</a>
+            </div>
+            <ul class="menu__list">
+              <li><a class="menu__item" href="index.html"><i class="icon-arrow-right"></i>Главная</a></li>
+              <li><a class="menu__item" href="work.html"><i class="icon-arrow-right"></i>Работы</a></li>
+              <li><a class="menu__item" href="about.html"><i class="icon-arrow-right"></i>О нас</a></li>
+              <li><a class="menu__item" href="blog.html"><i class="icon-arrow-right"></i>Блог</a></li>
+              <li><a class="menu__item" href="contact.html"><i class="icon-arrow-right"></i>Контакты</a></li>
+            </ul>
+            <div class="contacts d-flex">
+              <div class="contacts__content">
+                <p class="contacts__address">Новосибирск<br> проспект Димитрова, 7, офис 524Б</p>
+                <p>Email: <a class="contacts__email" href="mailto:bigfishvp@gmail.com">bigfishvp@gmail.com</a></p>
+                <p>Телефон: <a class="contacts__phone" href="tel:79232486298">+7 (923) 248-62-98</a></p>
+                <p>Телефон: <a class="contacts__phone" href="tel:73832863720">+7 (383) 286-37-20</a></p>
+                <div class="socials">
+                  <a class="socials__item" href="#"><i class="icon-vimeo"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-youtube"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-fb"></i></a>
+                  <a class="socials__item" href="#"><i class="icon-vk"></i></a>
+                </div>
+              </div>
+              <p><button class="requist-link right-link" href="#"><i class="icon-arrow-right"></i> Оставить заявку</button></p>
+              <div class="contacts__conf">
+                <a href="privacy.html" target="_blank">Политика конфиденциальности</a>
+                <a href="https://machineheads.ru/" target="_blank">Сделано в Machineheads</a>
+              </div>
+            </div>
+          </div>
+          <button class="menu__closebtn" id="closebtn"><i class="icon-close"></i></button>
+        </div>
+      </header>
+    </div>
+
+    <div class="slide-page slider__item" id="one-page-block">
+      <div class="video-block d-center active slider__prevu" data-videoname="home-video">
+        <img class="video-block__img" src="build/img/videobg.png" alt="история корпоративных и рекламных роликов">
+        <button href="#" class="video-block__play d-center">
+          <i class="icon-play"></i>
+          <svg viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.9747 24.3962L0 0V24.3962V65L55.9662 32.5853L41.9747 24.3962ZM38.9033 25.42L38.2209 24.9081C32.5902 26.2729 26.9594 29.8557 21.158 29.8557C14.8448 29.8557 8.70212 25.5906 2.38885 24.567V60.7349L51.1887 32.4147L41.1216 26.6141L38.9033 25.42Z" fill="#2AD7B8"/></svg>
+        </button>
+        <div class="video-block__honor">
+          <img src="build/img/videolog.svg" alt="Награда">
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="slide-page__content">
+          <h1 class="title2">
+            Видео-продакшн историй для корпоративных и рекламных роликов
+          </h1>
+          <p class="slide-page__text">Видео-продакшн историй для корпоративных и рекламных роликов</p>
+          <p><button id="show-all-work" class="right-link" href="#"><i class="icon-arrow-right"></i> Смотреть примеры работ</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-line" id="home-line">
+      <span class="right-line__text">Главная</span>
+    </div>
+
+    <div class="right-line d-center none" id="slider-nav">
+      <span class="right-line__text">Работы</span>
+      <div class="sliderbtn" id="sliderbtn"></div>
+    </div>
+
+    <div class="homeslider opacity" id="homeslider">
+      <div class="homeslider__item slider__item">
+        <div class="slide-page">
+          <div class="video-block d-center slider__prevu" data-videoname="video-slider1">
+            <img class="video-block__img" src="build/img/slide1.png" alt="история корпоративных и рекламных роликов">
+            <button href="#" class="video-block__play d-center">
+              <i class="icon-play"></i>
+              <svg viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.9747 24.3962L0 0V24.3962V65L55.9662 32.5853L41.9747 24.3962ZM38.9033 25.42L38.2209 24.9081C32.5902 26.2729 26.9594 29.8557 21.158 29.8557C14.8448 29.8557 8.70212 25.5906 2.38885 24.567V60.7349L51.1887 32.4147L41.1216 26.6141L38.9033 25.42Z" fill="#2AD7B8"/></svg>
+            </button>
+            <div class="video-block__honor">
+              <img src="build/img/videolog.svg" alt="Награда">
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="slide-page__content">
+              <h2 class="title2">
+                Невероятное
+              </h2>
+              <sub>— Впк-ойл</sub>
+              <p class="slide-page__text">В центре истории представитель иностранного инвестора, привыкший работать в рамках своих стереотипов, который приезжает в Новосибирск, чтобы проанализировать положение дел на заводе ВПК-Ойл.</p>
+              <p>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Корпоративный ролик</a>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Имиджевый ролик</a>
+              </p>
+              <div class="sliderbuttons">
+                <button class="sliderbuttons__item" type="button" disabled><i class="icon-arrow-left"></i></button>
+                <button class="sliderbuttons__item nextarrow" type="button"><i class="icon-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homeslider__item slider__item">
+        <div class="slide-page">
+          <div class="video-block d-center slider__prevu" data-videoname="video-slider2">
+            <img class="video-block__img" src="build/img/slide2.png" alt="история корпоративных и рекламных роликов">
+            <button href="#" class="video-block__play d-center">
+              <i class="icon-play"></i>
+              <svg viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.9747 24.3962L0 0V24.3962V65L55.9662 32.5853L41.9747 24.3962ZM38.9033 25.42L38.2209 24.9081C32.5902 26.2729 26.9594 29.8557 21.158 29.8557C14.8448 29.8557 8.70212 25.5906 2.38885 24.567V60.7349L51.1887 32.4147L41.1216 26.6141L38.9033 25.42Z" fill="#2AD7B8"/></svg>
+            </button>
+            <div class="video-block__honor">
+
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="slide-page__content">
+              <h2 class="title2">
+                Терминал сверхвозможностей
+              </h2>
+              <sub>— Евросиб</sub>
+              <p class="slide-page__text">В центре истории представитель иностранного инвестора, привыкший работать в рамках своих стереотипов, который приезжает в Новосибирск.</p>
+              <p>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Корпоративный ролик</a>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Имиджевый ролик</a>
+              </p>
+              <div class="sliderbuttons">
+                <button class="sliderbuttons__item prevarrow" type="button"><i class="icon-arrow-left"></i></button>
+                <button class="sliderbuttons__item nextarrow" type="button"><i class="icon-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homeslider__item slider__item">
+        <div class="slide-page">
+          <div class="video-block d-center slider__prevu" data-videoname="video-slider3">
+            <img class="video-block__img" src="build/img/slide3.png" alt="история корпоративных и рекламных роликов">
+            <button href="#" class="video-block__play d-center">
+              <i class="icon-play"></i>
+              <svg viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.9747 24.3962L0 0V24.3962V65L55.9662 32.5853L41.9747 24.3962ZM38.9033 25.42L38.2209 24.9081C32.5902 26.2729 26.9594 29.8557 21.158 29.8557C14.8448 29.8557 8.70212 25.5906 2.38885 24.567V60.7349L51.1887 32.4147L41.1216 26.6141L38.9033 25.42Z" fill="#2AD7B8"/></svg>
+            </button>
+            <div class="video-block__honor">
+
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="slide-page__content">
+              <h2 class="title2">
+                Побеждай Здесь
+              </h2>
+              <sub>— Чистая Слобода</sub>
+              <p class="slide-page__text">История о трех юных спортсменах, которые, преодолевая себя, добиваются спортивных успехов. Они подначивают друг друга дружеской конкуренцией, при этом отвечая на вопрос: “что заставляет нас заниматься спортом?</p>
+              <p>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Корпоративный ролик</a>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Имиджевый ролик</a>
+              </p>
+              <div class="sliderbuttons">
+                <button class="sliderbuttons__item prevarrow" type="button"><i class="icon-arrow-left"></i></button>
+                <button class="sliderbuttons__item nextarrow" type="button"><i class="icon-arrow-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homeslider__item slider__item">
+        <div class="slide-page">
+          <div class="video-block d-center slider__prevu" data-videoname="video-slider4">
+            <img class="video-block__img" src="build/img/slide4.png" alt="история корпоративных и рекламных роликов">
+            <button href="#" class="video-block__play d-center">
+              <i class="icon-play"></i>
+              <svg viewBox="0 0 56 65" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M41.9747 24.3962L0 0V24.3962V65L55.9662 32.5853L41.9747 24.3962ZM38.9033 25.42L38.2209 24.9081C32.5902 26.2729 26.9594 29.8557 21.158 29.8557C14.8448 29.8557 8.70212 25.5906 2.38885 24.567V60.7349L51.1887 32.4147L41.1216 26.6141L38.9033 25.42Z" fill="#2AD7B8"/></svg>
+            </button>
+            <div class="video-block__honor">
+
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="slide-page__content">
+              <h2 class="title2">
+                Я спокойна за свою дочь
+              </h2>
+              <sub>— Здравица</sub>
+              <p class="slide-page__text">Серия рекламных роликов для центра семейной медицины "Здравица" в Новосибирске. Этими роликами мы передаем среду комфорта.</p>
+              <p>
+                <a class="page-tags" href="#"><i class="icon-arrow-right"></i>Рекламный ролик</a>
+              </p>
+              <div class="sliderbuttons d-align">
+                <button class="sliderbuttons__item prevarrow" type="button"><i class="icon-arrow-left"></i></button>
+                <p><a class="right-link sliderbuttons__end" href="#"><i class="icon-arrow-right"></i> Больше работ<br> в портфолио</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-block" id="modalslider-block">
+    <button class="menu__closebtn" id="modal-closebtn"><i class="icon-close"></i></button>
+    <div class="modalslider" id="modalslider">
+      <div class="modalslider__item active" id="home-video">
+        <iframe src="https://player.vimeo.com/video/3251566" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="modal-share">
+          <button class="right-link  sliderbuttons__end" href="#"><i class="icon-podelitca"></i>Поделиться</button>
+          <div class="socials modal-social">
+            <a class="socials__item" href="#" target="_blank"><i class="icon-fb"></i></a>
+            <a class="socials__item" href="#" target="_blank"><i class="icon-vk"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="modalslider__item" id="video-slider1">
+        <iframe src="https://player.vimeo.com/video/3251566" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="modal-share">
+          <button class="right-link  sliderbuttons__end" href="#"><i class="icon-podelitca"></i>Поделиться</button>
+          <div class="socials modal-social">
+            <a class="socials__item" href="#" target="_blank"><i class="icon-fb"></i></a>
+            <a class="socials__item" href="#" target="_blank"><i class="icon-vk"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="modalslider__item" id="video-slider2">
+        <iframe src="https://player.vimeo.com/video/172195813" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="modal-share">
+          <button class="right-link  sliderbuttons__end" href="#"><i class="icon-podelitca"></i>Поделиться</button>
+          <div class="socials modal-social">
+            <a class="socials__item" href="#" target="_blank"><i class="icon-fb"></i></a>
+            <a class="socials__item" href="#" target="_blank"><i class="icon-vk"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="modalslider__item" id="video-slider3">
+        <iframe src="https://player.vimeo.com/video/172195813" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="modal-share">
+          <button class="right-link  sliderbuttons__end" href="#"><i class="icon-podelitca"></i>Поделиться</button>
+          <div class="socials modal-social">
+            <a class="socials__item" href="#" target="_blank"><i class="icon-fb"></i></a>
+            <a class="socials__item" href="#" target="_blank"><i class="icon-vk"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="modalslider__item" id="video-slider4">
+        <iframe src="https://player.vimeo.com/video/172195813" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="modal-share">
+          <button class="right-link  sliderbuttons__end" href="#"><i class="icon-podelitca"></i>Поделиться</button>
+          <div class="socials modal-social">
+            <a class="socials__item" href="#" target="_blank"><i class="icon-fb"></i></a>
+            <a class="socials__item" href="#" target="_blank"><i class="icon-vk"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal-fix" id="modal-requist">
+    <div class="modal-requist">
+      <button class="menu__closebtn" id="requist-closebtn"><i class="icon-close"></i></button>
+      <div class="page-container">
+        <h2 class="title2">Оставьте заявку, мы<br> перезвоним</h2>
+        <form action="#" class="requist-form" id="requist-form">
+          <div class="requist-form__item error">
+            <input class="requist-form__inp" type="text" placeholder="Имя*">
+            <p class="requist-form__msg">О нет! Мы не знаем, как к вам обращаться!</p>
+          </div>
+          <div class="requist-form__item">
+            <input class="requist-form__inp phone-mask" type="text" placeholder="Телефон*">
+            <p class="requist-form__msg">О нет! Откуда у вас такой номер?</p>
+          </div>
+          <p class="requist-form__item">
+            <input class="requist-form__inp" type="text" placeholder="Цель создания ролика">
+          </p>
+          <p class="requist-form__item">
+            <input class="requist-form__inp" type="text" placeholder="Ссылки на примеры понравишихся работ">
+          </p>
+          <p class="requist-form__privacy">Нажимая оставить заявку я принимаю <a href="#">условия пользовательского<br> соглашения о передаче персональных данных</a></p>
+          <button class="contacts-page__req right-link" type="submit"><i class="icon-arrow-right"></i> Оставить заявку</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal-fix" id="modal-requist-thenk">
+    <div class="modal-requist">
+      <button class="menu__closebtn close-thenk"><i class="icon-close"></i></button>
+      <div class="page-container">
+        <h2 class="title2">Спасибо, мы получили<br> вашу заявку</h2>
+        <p class="messages">В ближайшее время мы вам перезвоним</p>
+        <button class="contacts-page__req right-link close-thenk"><i class="icon-arrow-right"></i> Закрыть</button>
+      </div>
+    </div>
+  </div>
+  <!--  scripts  -->
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src="build/js/jquery.min.js"></script>
+  <script src="build/js/mask.js"></script>
+  <script src="build/js/slick.min.js"></script>
+  <script src="build/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

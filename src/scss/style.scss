@@ -668,6 +668,7 @@ h1,h2,h3,h4{
   }
   &__text{
     margin: 30px 0 3.7vw;
+	font-family: 'Muller-UltraLight';
     @include dev3{
       margin: 20px 0 40px;
     }
@@ -687,7 +688,7 @@ h1,h2,h3,h4{
   }
   .wrapper{
     position: relative;
-    animation: slideText .8s cubic-bezier(.62,.35,.61,.94);
+    animation: slideText 1.6s cubic-bezier(.62,.35,.61,.94);
     top: 0;
     opacity: 1;
   }
@@ -717,7 +718,7 @@ h1,h2,h3,h4{
   cursor: pointer;
   animation: slide-page .7s cubic-bezier(.62,.35,.61,.94);
   &.active{
-    animation: slidevideo 1.2s cubic-bezier(.62,.35,.61,.94);
+    animation: slidevideo 1.4s cubic-bezier(.62,.35,.61,.94);
     top: 0;
     opacity: 1;
     z-index: 9;
@@ -869,7 +870,7 @@ h1,h2,h3,h4{
     display: block;
     width: 72vh;
     height: 1px;
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.2);
   }
   &.none{
     opacity: 0;
@@ -914,6 +915,7 @@ h1,h2,h3,h4{
     background-color: #000;
     border: none;
     color: #fff;
+	opacity: .6;
     vertical-align: middle;
     padding: 8px;
     margin: 0 10px;
@@ -923,6 +925,7 @@ h1,h2,h3,h4{
       font-size: 36px;
       color: $btncolor;
       font-weight: bold;
+	  opacity: 1;
       cursor: auto;
       transition: .3s;
     }
@@ -961,7 +964,7 @@ h1,h2,h3,h4{
     }
     &.active{
       .wrapper{
-        animation: slideText .8s cubic-bezier(.62,.35,.61,.94);
+        animation: slideText 1.6s cubic-bezier(.62,.35,.61,.94);
         top: 0;
         opacity: 1;
       }
@@ -977,7 +980,11 @@ h1,h2,h3,h4{
     top: 20vw;
     opacity: 0;
   }
-  20%{
+  60%{
+    top: 20vw;
+    opacity: 0;
+  }
+  70%{
     opacity: 0;
     z-index: 99;
   }

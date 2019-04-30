@@ -333,19 +333,6 @@ h1,h2,h3,h4{
 }
 
 /**/
-.change-lang{
-  margin-right: 5rem;
-  &__item{
-    @include transition;
-    &:hover,
-    &.active{
-      color: $active;
-      @include transition;
-    }
-  }
-}
-
-/**/
 .menubtn{
   position: relative;
   width: 45px;
@@ -504,9 +491,6 @@ h1,h2,h3,h4{
       color: #7CF9E2;
       @include transition;
     }
-  }
-  .change-lang{
-    height: 0;
   }
   
   .page-container{

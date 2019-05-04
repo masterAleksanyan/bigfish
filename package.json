@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "dependencies": {
-    "browser-sync": "^2.26.3",
+    "css-mqpacker": "^5.0.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-concat": "^2.6.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^6.2.0",
     "gulp-sass": "^4.0.2",
     "node-sass": "^4.10.0"
   },
@@ -17,5 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {}
 }

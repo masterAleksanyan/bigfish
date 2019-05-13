@@ -2293,12 +2293,11 @@ h1,h2,h3,h4{
   transform: scale(0);
   opacity: 0;
   z-index: -99;
-  transition: .5s ease;
   &.active{
     opacity: 1;
     z-index: 9999;
     transform: scale(1);
-    transition: .5s ease;
+    transition: all .5s ease;
   }
   @include dev2{
     .menu__closebtn{
